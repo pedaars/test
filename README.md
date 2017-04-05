@@ -3,7 +3,7 @@
 Thank you for taking the time to do our technical test. It consists of a simple coding test in the following two languages:
 
 * PHP
-* JavaScript _ you can use any framework if necessary _
+* JavaScript _you can use any framework if necessary_
 
 Upon the completion of this test, we would like you to commit all your files and submit your results by creating a Pull Request and using your full name as the branch name with a summary explaining what you have done and why within the body of the pull request.
 
@@ -30,5 +30,7 @@ Please complete the user story below. Your code should compile and run in one st
 ## User Story
 
 As a *user running the application*,
+
 I can *view a list of CoInvestor fund managers*
+
 So that I *know which fund managers CoInvestor has on their platform*
