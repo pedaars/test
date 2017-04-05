@@ -5,7 +5,7 @@ Thank you for taking the time to do our technical test. It consists of a simple 
 * PHP
 * JavaScript (_you can use any framework if necessary_)
 
-Upon the completion of this test, we would like you to commit all your files and submit your results by creating a Pull Request and using your full name as the branch name with a summary explaining what you have done and why within the body of the pull request.
+Upon the completion of this test, we would like you to commit all your files and submit your results by creating a [Pull Request](https://github.com/CoInvestor/test/pulls) and using your full name as the branch name with a summary explaining what you have done and why within the body of the pull request.
 
 ## Coding Test
 
