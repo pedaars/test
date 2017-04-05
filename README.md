@@ -11,7 +11,7 @@ Upon the completion of this test, we would like you to commit all your files and
 
 CoInvestor has a demo API available at http://demo.api.coinvestor.co.uk that you can use to get basic platform data.
 
-As an example, http://demo.api.coinvestor.co.uk/sponsor returns a list of fund managers that all have profiles on the platform. You can see an example of this on our [Live Site])https://www.coinvestor.co.uk/managers).
+As an example, http://demo.api.coinvestor.co.uk/sponsor returns a list of fund managers that all have profiles on the platform. You can see an example of this on our [Live Site](https://www.coinvestor.co.uk/managers).
 
 The task is to create a single page that will return a list of the fund managers with their data in a structured and aesthetically pleasing design. The list of fund managers should then display at a minium the following:
 
