@@ -6,7 +6,7 @@ Upon the completion of this test, we would like you to commit all your files and
 
 ## Coding Test
 
-CoInvestor has a demo API available at http://demo.api.coinvestor.co.uk that you can use to get basic platform data.
+CoInvestor has a demo API available at http://demo.api.coinvestor.co.uk which  you can use to get basic platform data.
 
 As an example, http://demo.api.coinvestor.co.uk/sponsor returns a list of fund managers that all have profiles on the platform. You can see an example of this on our [Live Site](https://www.coinvestor.co.uk/managers).
 
