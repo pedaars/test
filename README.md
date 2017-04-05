@@ -1,9 +1,6 @@
 # CoInvestor - Engineer Recruitment Test
 
-Thank you for taking the time to do our technical test. It consists of a simple coding test in the following two languages:
-
-* PHP
-* JavaScript (_you can use any framework if necessary_)
+Thank you for taking the time to do our technical test, it consists of a simple coding test.
 
 Upon the completion of this test, we would like you to commit all your files and submit your results by creating a [Pull Request](https://github.com/CoInvestor/test/pulls) and using your full name as the branch name with a summary explaining what you have done and why within the body of the pull request.
 
