@@ -1,5 +1,7 @@
 # CoInvestor - Engineer Recruitment Test - Daniel Beauchamp
 
+Run 'gulp serve' to test
+
 **Started at 9:30am**
 
 Setup base structure of Gulp Serve, Angular and Bootstrap.
