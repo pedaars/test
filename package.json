@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "CoInvestor Test",
   "author": "Daniel Beauchamp <db@crimasi.com>",
-  "bin": {
-    "module-name": "./bin/module-name"
-  },
   "scripts": {
     "start": "gulp serve"
   },
