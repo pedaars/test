@@ -1,25 +1,36 @@
-<div>Name: {{vm.sponsor.attributes.name}}</div>
+<div class="box">
+  <div>
+    <img class="center-block img-thumbnail sponsorLogo" ng-src="{{vm.sponsor.attributes.basic_assets.logo.path}}" alt="{{vm.sponsor.attributes.name}}" />
+  </div>
 
-<sponsor-address address="vm.sponsor.attributes.addresses[0]"></sponsor-address>
+  <div class="text-center"><strong>{{vm.sponsor.attributes.name}}</strong></div>
 
-<div>Website: <a ng-href="{{vm.sponsor.attributes.communications[0].website}}">{{vm.sponsor.attributes.communications[0].website}}</a></div>
-<div>
-  <img class="img-thumbnail" ng-src="{{vm.sponsor.attributes.basic_assets.logo.path}}" alt="{{vm.sponsor.attributes.name}}" />
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <div><a ng-href="{{vm.sponsor.attributes.communications[0].website}}">{{vm.sponsor.attributes.communications[0].website}}</a></div>
+
+      <div>
+        <sponsor-address address="vm.sponsor.attributes.addresses[0]"></sponsor-address>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6" ng-show="vm.sponsor.attributes.investment_phases.length">
+      <div>
+        <strong>Investment Phases:</strong>
+        <span ng-repeat="investmentPhase in vm.sponsor.attributes.investment_phases">
+          {{investmentPhase.value}}&nbsp;
+        </span>
+      </div>
+
+      <div><strong>Primary Sponsor Type:</strong> {{vm.sponsor.attributes.primary_sponsor_type.value}}</div>
+
+      <div ng-show="vm.sponsor.attributes.other_sponsor_types.length">
+        <strong>Other Sponsor Types:</strong>
+        <span ng-repeat="sponsorType in vm.sponsor.attributes.other_sponsor_types">
+          {{sponsorType.value}}&nbsp;
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="sponsorDescription">{{vm.sponsor.attributes.marketing.description_header | limitTo:130}}</div>
 </div>
-<div>
-  <span>Investment Phases:</span>
-  <span ng-repeat="investmentPhase in vm.sponsor.attributes.investment_phases">
-    {{investmentPhase.value}},
-  </span>
-</div>
-
-<div>Primary Sponsor Type: {{vm.sponsor.attributes.primary_sponsor_type.value}}</div>
-
-<div>
-  <span>Other Sponsor Types:</span>
-  <span ng-repeat="sponsorType in vm.sponsor.attributes.other_sponsor_types">
-    {{sponsorType.value}},
-  </span>
-</div>
-
-<div>{{vm.sponsor.attributes.marketing.description_header}}</div>

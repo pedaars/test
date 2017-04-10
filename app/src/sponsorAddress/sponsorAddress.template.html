@@ -1,8 +1,8 @@
-<div>
-  <span>{{vm.address.address1}}</span>
-  <span ng-if="vm.address.address2">{{vm.address.address2}}</span>
-  <span ng-if="vm.address.address3">{{vm.address.address3}}</span>
-  <span ng-if="vm.address.city">{{vm.address.city}}</span>
-  <span>{{vm.address.post_code}}</span>
-  <span>United Kingdom</span>
-</div>
+<address>
+  <div ng-show="vm.address.address1.length">{{vm.address.address1}} </div>
+  <div ng-show="vm.address.address2.length">{{vm.address.address2}} </div>
+  <div ng-show="vm.address.address3.length">{{vm.address.address3}} </div>
+  <div ng-show="vm.address.city.length">{{vm.address.city}} </div>
+  <div ng-show="vm.address.post_code.length">{{vm.address.post_code}} </div>
+  <div>United Kingdom</div>
+</address>

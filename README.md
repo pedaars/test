@@ -9,7 +9,7 @@ Created two hollow main components sponsor and sponsorList.
 **Paused at 11:00am**
 
 **Restarted at 11:07am**
-
+Finished Functionality at Noon.
 **Finished at**
 
 # References
@@ -19,3 +19,4 @@ https://github.com/suryatech/codeschool-shaping-up-with-angular
 
 #Notes
 No way to figure out countries
+Key Requirements is a little unclear.
