@@ -1,6 +1,6 @@
 # CoInvestor - Engineer Recruitment Test - Daniel Beauchamp
 
-Run 'gulp serve' to test
+Run 'npm install & gulp serve' to test
 
 **Started at 9:30am**
 
