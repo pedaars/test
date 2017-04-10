@@ -1,22 +1,22 @@
 # CoInvestor - Engineer Recruitment Test - Daniel Beauchamp
 
-
-# Timeline
-
 **Started at 9:30am**
-Setup base structure.
+Setup base structure of Gulp Serve, Angular and Bootstrap.
 Created two hollow main components sponsor and sponsorList.
 **Paused at 11:00am**
 
 **Restarted at 11:07am**
-Finished Functionality at Noon.
-**Finished at**
+Created sponsorAddress Component.
+Finished loading all data in at Noon.
+Work on aesthetics from 12pm-2pm.
+**Finished at 2pm**
 
-# References
+# References used
 https://docs.angularjs.org/
 http://getbootstrap.com/
 https://github.com/suryatech/codeschool-shaping-up-with-angular
+http://paletton.com/
 
 #Notes
-No way to figure out countries
-Key Requirements is a little unclear.
+No way to figure out countries.
+Key Requirements is unclear on what it is.

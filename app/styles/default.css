@@ -1,0 +1,85 @@
+body {
+  background-color: #f4f8f8;
+}
+
+header, footer {
+  background-color: #fcfcfc;
+	color: #097fd4;
+}
+
+header {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+footer {
+	border-top: 1px solid #ddd;
+	margin-top: 10px;
+	padding:6px;
+	font-size: 14px;
+}
+
+.img-thumbnail {
+  border: 0 none;
+	box-shadow: none;
+}
+
+#websiteTitle {
+  margin:0;
+  padding:10px;
+}
+#pageTitle {
+  margin-top:0;
+}
+
+.pageHeading {
+	padding: 3px;
+}
+
+.sponsorLogo {
+	height: 60px;
+}
+
+.sponsorContainer {
+	padding: 8px;
+}
+
+.boldColour {
+	color: #097fd4;
+}
+
+.box {
+	background-color: white;
+	border-color: #bbbbbb;
+	border-style: solid;
+	border-width: 1px;
+  border-radius: 4px;
+	padding: 8px;
+	height:360px;
+}
+
+.website {
+	padding-bottom: 5px;
+}
+
+.investmentPhases, .primarySponsorType, .otherSponsorTypes {
+	padding-bottom: 5px;
+}
+
+address {
+	margin-bottom: 2px;
+	height: 140px;
+}
+
+.loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
