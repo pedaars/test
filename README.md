@@ -14,7 +14,7 @@ Created two hollow main components sponsor and sponsorList.
 
 Created sponsorAddress Component.
 
-Finished loading all data in at Noon.
+Finished displaying all data in at Noon.
 
 Work on aesthetics from 12pm-2:15pm.
 
