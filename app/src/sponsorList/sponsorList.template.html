@@ -1,0 +1,11 @@
+<button ng-click="vm.loadSponsors()" type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+</button>
+
+<div class="list-group">
+
+  <div class="list-group-item" ng-repeat="sponsor in vm.sponsors">
+    <sponsor sponsor="sponsor"></sponsor>
+  </div>
+
+</div>
