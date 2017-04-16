@@ -29,11 +29,6 @@ td {
 	background-color: white;
 }
 
-p {
-	font-weight: bold;
-	font-size: 25px;
-}
-
 input[type="button"] {
 	margin: 0 5px;
 	font-size: 20px;
@@ -81,7 +76,7 @@ img {
 <div id="paginator">
 Pages:
 </div>
-<br>
+
 <!-- Create a table. This will be used to display the data for each page of results that are created dynamically -->
 <table id="Results">
 </table>
@@ -110,22 +105,25 @@ fetch(url)
 .then((manager) => {
   
   <!-- console.log(manager); -->
-  <!-- console.log(manager.data.length); -->
+  console.log(manager.data.length);
   <!-- console.log(manager.data[0].attributes.name); -->
   <!-- console.log(manager.meta); -->
   <!-- console.log(manager.meta.pagination.total_pages); -->
-   for(var i=0, l=manager.data.length; i < l; i++) {
+   for(var i=0, l=manager.data.length; i<l; i++) {
 		try {	
 			var row = $('<tr><td>' + '<br>' + '<img src="' + manager.data[i].attributes.basic_assets.logo.path + '"></img>' + '<br>' + manager.data[i].attributes.name 
 			+ '<br>' + manager.data[i].attributes.addresses[0].address1 + '<br>' + manager.data[i].attributes.addresses[0].address2 + '<br>' 
 			+ manager.data[i].attributes.addresses[0].address3 + '<br>' + manager.data[i].attributes.addresses[0].city + '<br>' + manager.data[i].attributes.addresses[0].post_code + '<br>' + '<br>'
 			+ '<a href="' + manager.data[i].attributes.communications[0].website + '">' + manager.data[i].attributes.communications[0].website + '</a>' + '<br>' + '<br>' 
 			+ 'Investment Phases: ' + manager.data[i].attributes.investment_phases[0].value + '<br>' + 'Primary Sponsor Type: ' + manager.data[i].attributes.primary_sponsor_type.value 
-			+ '<br>' + 'Other Sponsor Type: ' + manager.data[i].attributes.other_sponsor_types[0].value + '<br>' + '<br>' + manager.data[i].attributes.marketing.description_header + '<br>' + '<br>' + '</td></tr>');
+			+ '<br>' + 'Other Sponsor Type: ' + manager.data[i].attributes.other_sponsor_types.value + '<br>' + '<br>' + manager.data[i].attributes.marketing.description_header + '<br>' + '<br>' 
+			+ '</td></tr>');
             $('#Results').append(row);
 		}
 		catch(e) {
 		}
+		console.log(i);
+		<!-- console.log(e); -->
 	}
 })
 }
