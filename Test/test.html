@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Coinvestor - Managers</title>
 
@@ -19,15 +20,20 @@
 <br>
 
 <!-- The below div holds the paginator buttons which are created dynamically -->
-<div id="paginator">
+<div id="paginator1">
 Pages:
 </div>
+<br>
 
 <!-- Create a table. This will be used to display the data for each page of results that are created dynamically -->
-<table id="Results">
-</table>
-
+<div id="Results">
+</div>
 <br>
+
+<!-- The below div holds the paginator buttons which are created dynamically -->
+<div id="paginator2">
+Pages:
+</div>
 <br>
 
 <!-- Do not load any of the below scripts untill the document has finished loading -->
@@ -38,8 +44,6 @@ loadData(1);
 paging();
 })
 </script>
-
-
 
 </body>
 </html>
